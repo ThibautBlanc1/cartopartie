@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cartopartie surveillance</title>
+  </head>
+  <body>
+
+    <div class="container mt-5">
+        <h1>Cartopartie Saint-Sérnin</h1>
+        <h2>Bienvenue sur la plateforme d'inscription <br />
+           pour la cartopartie du 03 juin 2023 ! </h2>
+<br />
+<div class="blocPresentation">
+       <p> Bonjour à toi ! <br />
+Je suis étudiant en master design graphique à Toulouse, et pour mon projet de fin d'études, 
+je me suis penché sur la thématique de la surveillance urbaine. Comment est-elle mise en place ? 
+Pourquoi ? Qui sont les acteurs ? Quelles sont les conséquences sur nos vies ? Que peut-on y faire ?...
+ Dans le cadre de ce projet, il m'a semblé plus qu'intéressant de mener une cartopartie pour mettre 
+ en lumière la surveillance qui s'étend dans ce quartier aussi calme que touristique.<br />
+<br />
+Pourquoi Saint-Sernin me diras-tu ? Ce quartier qui abrite en son centre la célèbre basilique 
+semble d'une quiétude remarquable, malgré l'animation toute proche du boulevard d’Arcole 
+et de la place Arnaud-Bernard. Serait-ce grâce au déploiement d'un large réseau de surveillance ? 
+À nous de le découvrir (ou du moins mettre à jour) !
+<br />
+<br />
+Une cartopartie est un atelier (souvent mené sur une journée) qui vise à recenser des éléments dans 
+un lieu géographique donné. L'étude de terrain, le matin, permettra de relever les caméras de 
+surveillance, puis la mise en commun l'après-midi contribuera à créer une carte personnalisée du 
+quartier.
+ </p>
+</div>
+ <img class="imageLogo" src="images/logo_oeil_degradé.png" alt="logo">
+                              <!--mettre mon mail dans action-->
+        <form class="row g-3" action="https://formsubmit.co/VSCarto@proton.me" method="POST"> 
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none;">
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_next" value="https://haydn5.github.io/out_of_bounds/success.html" >
+
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" name="email" id="emailInfo" required>
+          </div>
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Une brève présentation de toi ?</label>
+            <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+          </div>
+         
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </div>
+        </form>
+
+        <br />
+
+        <h2> Ce dont tu auras besoin pour cet atelier :</h2>
+        <p class="info">(Si tu n'as pas tout ça c'est pas grave, un papier et un stylo pourront suffir.)</p>
+        <br />
+        <div>
+          <div class="blocImageTexte">
+            <div><img class="imageAAvoir" src="images/telephone.png" alt="telephone"></div>
+            <div class="texte"><p>Un téléphone portable équipé d'un appareil photo, 
+              d'une connexion internet et d'un GPS pour pouvoir répertorier les caméras de surveillance.
+              Nous utiliserons l'application StreetComplete pour noter directement sur OpenStreetMap.
+            </p></div>
+          </div>
+
+          <div class="blocImageTexte">
+            <div><img class="imageAAvoir" src="images/ordinateur.png" alt="ordinateur"></div>
+            <div class="texte"><p>Un ordinateur (portable c'est mieux) afin de traiter les informations
+              relevées durant la matinée.  
+            </p></div>
+          </div>
+
+         <!-- <div class="blocImageTexte">
+            <div><img class="imageAAvoir" src="images/telephone.png" alt="telephone"></div>
+            <div class="texte"><p>Un téléphone portable équipé d'une appareil photo, 
+              d'une connexion internet et d'un GPS pour pouvoir répértorier les caméras de surveillance.
+              Nous utiliserons l'application 
+            </p></div>
+          </div>-->
+        </div>
+        <h2> Programme de la journée :</h2>  
+        <br />
+
+        <div>
+          <div class="blocImageTexte">
+            <div><h1>9h</h1></div>
+            <div class="texte"><p>Rendez-vous Place Saint-Sernin (devant la Basilique)<br />
+              Petit topo sur le déroulé de la journée + formation d'équipes suivant notre nombre
+            </p></div>
+          </div>
+
+          <div class="blocImageTexte">
+            <div><h1>10h</h1></div>
+            <div class="texte"><p>Départ pour la cartographie<br />
+            </p></div>
+          </div>
+
+          <div class="blocImageTexte">
+            <div><h1>13h30</h1></div>
+            <div class="texte"><p>Rendez-vous devant Antidot Burger (10 rue du Taur)<br />
+              L'établissement nous accueillera pour manger + faire la mise en commun des données relevées le matin.
+            </p></div>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
