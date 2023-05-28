@@ -1,7 +1,10 @@
+/* thanks to Ange Degheest, Eugénie Bidaut for the font*/
 @font-face {
 font-family: "Equateur";
 src: url("fonts/Equateur-Regular.otf") format("opentype");
 }
+
+/* thanks to Ertekin Erdin for the font*/
 
 @font-face {
 font-family: "HaskoySemiBold";
